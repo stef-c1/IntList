@@ -7,7 +7,7 @@ class Test {
 	@org.junit.jupiter.api.Test
 	void test() {
 
-		IntList2 List1 = IntList2.getList();
+		IntList List1 = IntList.getList();
 		List1.appendList(5);
 		assertEquals(1,List1.getLenList());
 		List1.appendList(-6);

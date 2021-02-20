@@ -1,5 +1,10 @@
 package IntLiist;
 
+/**
+ * @invar | getArrayOfList() != null
+ * @author stefc
+ *
+ */
 public class IntList2 {
 
 	public class Node {

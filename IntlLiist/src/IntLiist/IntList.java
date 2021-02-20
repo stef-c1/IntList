@@ -2,9 +2,15 @@ package IntLiist;
 
 import java.util.Arrays;
 
+
+/**
+ * @invar | getArrayOfList() != null
+ * @author stefc
+ *
+ */
 public class IntList {
 	/**
-	 * The class IntList represents an array object named List with integer elements.
+	 * The class IntList represents a mutable array object named List with integer elements.
 	 */
 	
 	private int[] storeArray;
@@ -16,6 +22,9 @@ public class IntList {
 	private IntList() {
 		int[] emptyArray = {};
 		this.storeArray = emptyArray;
+		/*
+		 * of liever storeArray = new int[0];
+		 */
 	}
 	
 	public static IntList getList() {
